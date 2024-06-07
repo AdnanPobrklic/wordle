@@ -32,7 +32,7 @@ fun Profile() {
     val context = LocalContext.current
     val (wins, losses) = loadUserStats(context)
 
-    Column(modifier = Modifier.fillMaxSize().background(Color.Black).padding(top = 50.dp)) {
+    Column(modifier = Modifier.fillMaxSize().background(Color.DarkGray).padding(top = 50.dp)) {
         Text(
             text = "User profile",
             modifier = Modifier

@@ -30,7 +30,7 @@ fun Home(navController: NavController) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Black)
+            .background(Color.DarkGray)
     ) {
         Text(
             text = "Wordle game",

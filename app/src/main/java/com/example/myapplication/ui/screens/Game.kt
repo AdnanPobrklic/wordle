@@ -71,6 +71,7 @@ fun Game(viewModel: MyViewModel = androidx.lifecycle.viewmodel.compose.viewModel
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
+                Text(text = "Testna rijec: ${data}")
                 Spacer(modifier = Modifier.height(35.dp))
                 Column {
                     for (word in guessesWords) {
